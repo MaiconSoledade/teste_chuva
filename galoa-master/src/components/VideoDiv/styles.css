@@ -1,0 +1,199 @@
+.video {
+    display: flex;
+    flex-direction: row;
+    padding-left: 27rem;
+}
+
+.div-video {
+    height: 42.3rem;
+    width: 82rem;
+    background-image: url('../../assets/images/dewey.jpg');
+    position: relative;
+    z-index: 0;
+    border-radius: 3px;    
+} 
+
+.div-video-child {
+    height: 42.3rem;
+    width: 82rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    position: absolute;
+    border-radius: 3px;
+    background-color: #8d350680;
+} 
+
+.div-video-child .video-title{
+   font: 500 2.8rem Roboto;
+   padding: 3.0rem;
+   color: var(--color-background);
+
+
+} 
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    margin-bottom:4.8rem;
+    margin-left:3rem;
+}
+
+.footer img{
+    height: 8.3rem;
+    width: 8.6rem;
+    border-radius: 50%;
+    border: 0.1rem solid;
+    border-color: var(--color-primary);
+    
+}
+
+.div-video-child .footer .footer-title #firstp {
+    color: var(--color-background);
+    font:900 3.2rem Roboto;
+    margin-left: 1.6rem;
+    margin-top: 1.3rem;
+}
+
+.div-video-child .footer .footer-title #secondp {
+    color: var(--color-background);
+    font:500 1.8rem Roboto;
+    margin-left: 1.6rem;
+}
+
+.container-div {
+    padding-left: 5rem;
+    height: 12rem;
+    width: 28rem;
+    margin-right: 5rem;
+    height: 41rem;
+}
+
+.header-div {
+    background-color: var(--color-primary-lighter);
+    width: 25rem;
+    height:4.5rem;
+    border-radius: 0.2rem;
+}
+
+.header-div span {
+    font:500 2.0rem Roboto;
+    color: var(--color-brown-dark);
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    height: 38rem;
+    width: 25rem;
+    border: 2px  solid var(--color-primary-lighter);
+    border-radius: 0.2rem;    
+}
+
+
+.main-body .content {
+    height: 36rem;
+    width: 23rem;
+    padding: 0.9rem;
+}
+
+.main-body .content::-webkit-scrollbar-thumb:vertical{
+    width: 0.1rem;
+    height: 1rem; 
+}
+
+.main-body .content p {
+    font: 100 1.3rem Roboto;
+    color: var(--color-grey-light);
+}
+
+.container-div .main-body .scroll-bar-1 {
+    height: 20rem;
+    width: 0.3rem;
+    background: var(--color-scrollbar-front);
+    border-radius: 1rem;
+    position: relative;
+}
+.container-div .main-body .scroll-bar-2 {
+    margin-top: 0.8rem;
+    height: 35rem;
+    width: 0.3rem;
+    background: var(--color-scrollbar-back);
+    border-radius: 1rem;
+    position: relative;
+}
+
+/* 
+    CSS dos itens do play
+.div-video-child .play-elements  .progress-status { 
+    width:70%;
+    height: 0.4rem; 
+    background-color: var(--color-background);
+    position: absolute;
+    bottom: 0;
+    border-radius: 7em;
+    margin: 1.7rem;
+    margin-left: 5rem;
+    opacity: 0.3;
+} 
+
+.div-video-child .play-elements .progress-status .progress-bar { 
+    width: 20%; 
+    height: 0.4rem; 
+    background-color: var(--color-blue); 
+    text-align: center; 
+    border-radius: 7em;
+    
+} 
+
+.play-elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-height: 2.6rem;
+}
+
+.play-elements img {
+   height: 4rem;
+   width: 4rem;
+   position: absolute;
+   bottom: 0;
+   align-self: center;
+}
+
+
+.play-elements #minute {
+  font: 500 1.0rem Roboto;
+  color: var(--color-background);
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  right: 11rem;
+  padding: 0.4rem;
+  transform: translateY(-50%);
+ }
+
+
+
+.play-elements #button-audio {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 7rem;
+    height: 2.6rem;
+    transform: translateY(-26%);
+    opacity: 0.6;
+   } */
+     
+
+   
+       
+  
+    

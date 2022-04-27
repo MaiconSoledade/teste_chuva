@@ -1,0 +1,97 @@
+.question-div {
+    padding: 2rem;
+    margin-top: 1.4rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    border: 0.1rem solid var(--color-primary-lighter);
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    box-shadow: 0rem 0rem 0.7rem var(--color-shadow);
+    display: flex;
+    flex-direction: column;
+}
+
+.div-waiting-feedback {
+    /* padding: 2rem; */
+    
+    margin-top: 1.4rem;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    border: 0.1rem solid var(--color-primary-lighter);
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    box-shadow: 0rem 0rem 0.7rem var(--color-shadow);
+    position: relative; 
+
+
+}
+
+.div-waiting-feedback .text  {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    z-index: 1;
+    font: 500 1.8rem Roboto;
+    color: var(--color-brown-dark);
+}
+
+.background{
+    padding: 2rem;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    box-shadow: 0rem 0rem 0.7rem var(--color-shadow);
+    display: flex;
+    flex-direction: column;
+    background: #DDDDDD;
+    position: relative;
+    opacity: 0.3rem;
+    filter: blur(4px);
+}
+
+.question-title {
+    color: var(--color-primary);
+    font: 500 2rem Roboto;
+}
+
+.name-who {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name-who .question-name{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font:500 1.4rem Roboto;
+    width: 16rem;
+    color: var(--color-brown-dark);
+}
+.name-who .question-who{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 80rem;
+    font:500 1.4rem Roboto;
+    color: var(--color-primary);
+    
+}
+
+.div-footer {
+    padding-top: 1rem;
+    display: flex;
+    align-content: space-between;
+}
+
+.div-footer img {
+    padding-right: 1.6rem;
+}
+
+.div-footer span {
+    padding-right: 1.6rem;
+    /* font: 1.3rem Roboto; */
+    color: var(--color-grey-light);
+}
+

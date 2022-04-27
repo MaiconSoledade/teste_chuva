@@ -1,0 +1,26 @@
+ .button-create-default {
+    background: linear-gradient(180deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    width: 15rem;
+    height: 4rem;
+  
+}
+
+.create {
+    color: var(--color-background);
+    font: 500 1.6rem Roboto;
+    padding: 1rem;
+
+}
+
+.button-create-new {
+    background: linear-gradient(180deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    width: 24rem;
+    height: 4rem;
+  
+}

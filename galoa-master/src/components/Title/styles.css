@@ -1,0 +1,65 @@
+.div-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8rem;
+    padding-bottom: 2.0rem;
+    padding-left:27rem;
+    position: relative;
+}
+
+.top-page-text p{
+    background-color: var(--color-background);
+    max-width: 70rem;
+    color: var(--color-primary);
+    font: 2.0rem Roboto ;
+    font-weight: bold;
+    
+}
+
+
+.div-top .right-elements .how span {
+    color: var(--color-primary);
+    font: 500 1.4rem Roboto;
+    display: flex;
+    justify-content: end;
+    padding-right: 1rem;
+       
+}
+
+.div-top .right-elements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.div-top .right-elements .buttons-right-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 3rem;
+     
+}
+
+.div-top .right-elements .buttons-right-page button{
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    display: flex;
+    padding:0.5rem 1.3rem;
+    border-radius: 0.4rem;
+    margin:0.3rem;
+    border: none;
+}
+
+.div-top .right-elements .buttons-right-page button:first-child img{
+    font-size: 500 1.6rem Roboto;
+    color: var(--color-background);
+    padding-right: 0.7rem;
+   
+}
+
+.right-elements {
+    margin-left: 4rem;
+}

@@ -1,0 +1,48 @@
+.sidenav {
+    height: 100%;
+    width: 23rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    background-color: var(--color-background);
+		box-shadow:3px 5px 5px var(--color-lines);
+  }
+  
+  .slaca{
+    height: 7.4rem;
+    background-image: linear-gradient(to top, var(--color-primary-side), var(--color-primary-to-gradiente));
+    color: var(--color-background);
+    display: flex;
+    font: 500 2.6rem Roboto;
+    align-items: center;
+    justify-content: center;
+    border:0.8pxpx solid;
+  }
+
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font: 500 1.6rem Roboto;
+    display: flex;
+    align-items: start;
+    padding: 0.9rem;
+    color: var(--color-brown-dark);
+    border-bottom: 2px solid var(--color-lines) ;
+  }
+
+  .menu-button:hover {
+    border-left: 6px solid var(--color-primary-to-gradiente);
+    background-color: var( --color-primary-lighter);
+    
+  }
+
+  .menu-button span {
+    padding-left: 2rem;
+  }
+
+  .sidenav img {
+    width:23rem;
+  }
