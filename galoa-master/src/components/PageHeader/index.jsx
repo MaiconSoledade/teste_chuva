@@ -20,9 +20,9 @@ function PageHeader() {
                 </button>
                 <div className="top-bar-container-text-wel">
                     <span>Bem Vindo!!!</span>
-                    <strong>maiconsoledade913@hotmail.com</strong>
+                    <strong>maiconsoledade@hotmail.com</strong>
                 </div>
-                <img src="../../assets/images/tranferir.jpeg" alt="Maicon Douglas Soledade"/>
+                <img src="../../assets/images/foto_para_documento.jpeg" alt="Maicon Douglas"/>
                 
             </div>
         </nav>
