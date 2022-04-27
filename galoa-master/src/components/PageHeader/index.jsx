@@ -22,7 +22,7 @@ function PageHeader() {
                     <span>Bem Vinda!</span>
                     <strong>carolina@galoascience.com</strong>
                 </div>
-                <img src="https://avatars1.githubusercontent.com/u/40405334?s=460&u=2050c0566a83c840ae936555933d8b42b061cbdf&v=4" alt="Carolina Gonzalez"/>
+                <img src="../../assets/images/foto_para_documento.jpeg" alt="Maicon Douglas"/>
                 
             </div>
         </nav>
