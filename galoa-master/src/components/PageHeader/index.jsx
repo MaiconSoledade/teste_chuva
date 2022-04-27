@@ -22,7 +22,7 @@ function PageHeader() {
                     <span>Bem Vindo!!</span>
                     <strong>maiconsoledade@hotmail.com</strong>
                 </div>
-                <img src="../../assets/images/foto_para_documento.jpeg" alt="Maicon Douglas"/>
+                <img src="../../assets/images/.jpeg" alt="Maicon Douglas"/>
                 
             </div>
         </nav>
