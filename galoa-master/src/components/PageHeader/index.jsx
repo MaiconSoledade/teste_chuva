@@ -19,10 +19,10 @@ function PageHeader() {
                     <img src={mundial} /> PT, BR
                 </button>
                 <div className="top-bar-container-text-wel">
-                    <span>Bem Vindo!!</span>
-                    <strong>maiconsoledade@hotmail.com</strong>
+                    <span>Bem Vindo!!!</span>
+                    <strong>maiconsoledade913@hotmail.com</strong>
                 </div>
-                <img src="../../assets/images/foto_para_documento.jpeg" alt="Maicon Douglas"/>
+                <img src="../../assets/images/tranferir.jpeg" alt="Maicon Douglas Soledade"/>
                 
             </div>
         </nav>
